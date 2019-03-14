@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+  }
+
+  body {
+    line-height: 20px;
+    color: #333;
+    background: blanchedalmond;
+  }
+
+  header {
+    padding: 20px;
+    margin-bottom: 20px;
+    color: white;
+    background: black;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+  }
+
+  .piclink {
+    background-color: rgb(19, 18, 18);
+    border: solid 3px black;
+    float: left;
+    padding:10px;
+  }
+
+  .Lyric {
+    background-color: rgb(58, 53, 36);
+    font-style: italic;
+    height:466px;
+    color:#fff;
+    padding: 10px 20px 30px 20px;
+    margin: 0px 10px;
+    border:rgb(19, 18, 18) 13px solid;
+    float: left;
+    width: 33%;
+    overflow-y: scroll;  
+  }   
+
+  .audio {
+  background-color: bisque;
+  border: 1px black groove;
+  float: left;
+  text-align: center;
+  width: 450px;
+  } 
+
+  .box-set {
+    float: right;;
+    position: static;
+    height: fit-content;
+    background:rgb(37, 36, 36);
+    width: 300px;
+    overflow: hidden;
+    margin-top: -20px;
+  }
+  
+  .box { 
+    background: burlywood;
+    position: relative;
+    height: 370px;
+    width: 280px;
+    float: left;
+    margin: 5px 10px 10px 10px;
+    border: black, 10px, solid;
+  }
+
+  .box-1 {
+      right: -30px;
+      bottom: -10px;
+  }
+  .box-2 {
+      bottom: -10px;
+      left: -30px;
+      text-align: end;
+  }
+  .box-3 {
+    left: 30px;  
+    top: 10px;
+  }
+  .box-4 {
+    top:10px;  
+    right: 30px;
+    text-align: center;
+  }
+  .box-5 {
+      top:10px;
+      right:-30px;
+  }
+
+  .test {
+    background-color: burlywood;
+    border-style: solid;
+    float: left;
+    width: 450px;
+    margin-top: 35px;
+    text-align: start;
+    text-align: center;
+  }
+
+  .quote {
+    display:none;
+  }
+/**div {
+    float: left;
+    background-color: aqua;
+    width: fit-content;
+    height: 600 px;
+    clear: both;
+}/**
+/** block level elements in HTML:
+<address> <article> <aside> <blockquote> <canvas> <dd> <div> <dl> <dt> <fieldset> <figcaption> 
+<figure> <footer> <form> <h1>-<h6> <header> <hr> <li> <main> <nav> <noscript> <ol> 
+<p> <pre> <section> <table> <tfoot> <ul> <video> 
+
+inline element: <span>
+**/
